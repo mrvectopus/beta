@@ -10,6 +10,17 @@ const config: DocsThemeConfig = {
     link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  navigation: {
+    next: false,
+    prev: false,
+  },
+  gitTimestamp: null,
+  editLink: {
+    text: React.FC,
+  },
+  feedback: {
+    content: null,
+  },
   footer: {
     component: React.FC,
   },
