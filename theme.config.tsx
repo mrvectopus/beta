@@ -16,13 +16,13 @@ const config: DocsThemeConfig = {
   },
   gitTimestamp: null,
   editLink: {
-    text: React.FC,
+    text: null,
   },
   feedback: {
     content: null,
   },
   footer: {
-    component: React.FC,
+    component: null,
   },
 }
 
